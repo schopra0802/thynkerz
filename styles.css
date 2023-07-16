@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #00AEEF;
+  --secondary-color-1: #FFA500;
+  --secondary-color-2: #FF68B6;
+  --accent-color: #7FFF00;
+  --neutral-color: #FFFFFF;
+}
+
+body {
+  background-color: var(--neutral-color);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: var(--neutral-color);
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  color: var(--primary-color);
+}
+
+.hero p {
+  color: var(--secondary-color-1);
+}
+
+.button {
+  background-color: var(--secondary-color-1);
+  color: var(--neutral-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+.features {
+  padding: 20px;
+  background-color: var(--secondary-color-2);
+  color: var(--neutral-color);
+}
+
+.testimonials {
+  padding: 20px;
+}
+
+.cta {
+  text-align: center;
+  padding: 20px;
+}
+
+.cta h2 {
+  color: var(--primary-color);
+}
+
+.cta p {
+  color: var(--secondary-color-1);
+}
+
+.footer {
+  background-color: var(--accent-color);
+  padding: 20px;
+  color: var(--neutral-color);
+}
